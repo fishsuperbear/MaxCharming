@@ -1,9 +1,10 @@
+<!--
 # Apni Dukaan <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/209/shopping-trolley_1f6d2.png" width="50" height="50" />
 
 Shopping! Who hate shopping? Everyone wants to get their hands on latest fashion trends and smartest new gadgets.
 <p align="center"><img src="https://im.idiva.com/content/2015/Dec/shopping_10.gif" width = 70%></p>
 
-Shopping with your best friends can be a fun experience! You get to spend some quality time, and bond over new trends. 
+Shopping with your best friends can be a fun experience! You get to spend some quality time, and bond over new trends.
 <p align="center"><img src="https://www.upbeatsoles.com/wp-content/uploads/2014/07/1-going-shopping.gif" width = 65%>></p>
 
 But shopping with friends too can be a nightmare! Especially if your friends insist on taking a long walk in crowded bazaars, with stacks of cash, and heavy shopping bags.
@@ -21,7 +22,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ## A sneak peek into what we have here🙈 :
 
 
-### Home Page 
+### Home Page
 
 <p>
 <img width=80% src="https://user-images.githubusercontent.com/98693953/196968571-95b302c6-67ca-4df4-bd9c-4bafe5e281c4.png">
@@ -77,7 +78,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 <div>
 <img src="Images\Logo\ApniDukan.png" height = "95" align = "left" padding-bottom = "10px"/>
 <div>
-ApniDukaan.com is a site where everyone gets everything they need. ApniDukaan.com allows users to buy items of their choice from a wide range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationery, books, and many more. 
+ApniDukaan.com is a site where everyone gets everything they need. ApniDukaan.com allows users to buy items of their choice from a wide range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationery, books, and many more.
 </div>
 </div>
 </p>
@@ -106,7 +107,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and improve it further
 
-To start contributing, follow the below guidelines: 
+To start contributing, follow the below guidelines:
 
 **🌟.**  Star🌟 the repository to appreciate the work.
 
@@ -129,7 +130,7 @@ cd Apni-Dukaan
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/QAZIMAAZARSHAD/Apni-Dukaan.git 
+git remote add upstream https://github.com/QAZIMAAZARSHAD/Apni-Dukaan.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -157,7 +158,7 @@ git checkout -b <your_branch_name>
 **9.** Track your changes:heavy_check_mark: .
 
 ```
-git add . 
+git add .
 ```
 
 **10.** Commit your changes .
@@ -190,7 +191,7 @@ git push -u origin <your_branch_name>
 <h5 align="center"><b>Qazi Maaz Arshad</b></a>
 
 ## Open Source Programs we have been associated with
-  
+
 <p align="center">
 <a href="https://devincept.codes/projects.html" target="_black">
 <img width=60% src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif"></p>
@@ -200,15 +201,36 @@ git push -u origin <your_branch_name>
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/CODE_OF_CONDUCT.md">
 <img width=60% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
 <h5 align="center"><b>Click to read</b></a>
-  
+
 ## License
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/LICENSE">
 <img width=65% src="https://media0.giphy.com/media/3ornjXbo3cjqh2BIyY/200.gif"></p>
-<h5 align="center"><b>MIT License</b></a>  
-  
+<h5 align="center"><b>MIT License</b></a>
+
 ## Contributors
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=QAZIMAAZARSHAD/Apni-Dukaan" />
 </a>
 # MaxCharming
+-->
+bug :
+1.it cant click the nav bar on categories when entry any sub page under categories
+2.click uneffective for several sub page under categories
+
+question：
+layout of picture and words : add position of css style; Flexbox
+style of font
+dynamic style:loading icon
+scroll of page
+clicking events
+touching events
+payments
+cart and star
+sign up and login
+functionality of backwards platform: number of views, number of clicks, ratio of transformation
+
+learning：
+definition of father container has nothing to do with code structure
+most of class name is refering to a lib which is include before by scripts label
+setup style has two ways: inline and external,the former is achieved by using style attribute in html tag, the latter is achieved by using link tag in head section of html file.
