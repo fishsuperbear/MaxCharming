@@ -219,7 +219,7 @@ bug :
 2.click uneffective for several sub page under categories
 
 question：
-layout of picture and words : add position of css style; Flexbox
+layout of picture and words : add position of css style; Flexbox              1.position: relative; left: 20px; top: 20px;   2.display: flex; left: 20px; top: 20px;   3.margin-top: 20px;
 style of font
 dynamic style:loading icon
 scroll of page
