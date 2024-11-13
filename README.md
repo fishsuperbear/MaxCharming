@@ -220,7 +220,7 @@ bug :
 
 question：
 layout of picture and words : add position of css style; Flexbox              1.position: relative; left: 20px; top: 20px;   2.display: flex; left: 20px; top: 20px;   3.margin-top: 20px;
-style of font
+style of font：font-family
 dynamic style:loading icon
 scroll of page
 clicking events
@@ -228,6 +228,7 @@ touching events
 payments
 cart and star
 sign up and login
+dynamic navbar: position set to fixed ; add async property while refering to the .js file; check the id value of the getelementbyid method.
 functionality of backwards platform: number of views, number of clicks, ratio of transformation
 
 learning：

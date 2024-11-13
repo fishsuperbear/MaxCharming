@@ -1167,7 +1167,15 @@ details > summary::-webkit-details-marker {
 }
 
 .navbar-logo{
-  width: 70px; 
+  width: 70px;
   height: 52px;
   object-fit: fill;
+}
+
+#navbar{
+  background: #ffffff;
+  transition: top 0.3s;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
