@@ -45,3 +45,17 @@ window.addEventListener("scroll", function() {
     }
     lastScrollTop = scrollTop; // 更新最后的滚动位置
 });
+// End Navbar Scroll
+
+// Search Box
+function toggleSearchBox() {
+  const searchBox = document.getElementById('searchBox');
+  searchBox.classList.toggle('active');
+}
+
+function search() {
+  const query = document.querySelector('.search-box input').value;
+  alert('搜索: ' + query);
+  // 这里可以添加搜索功能代码，例如跳转到搜索结果页面
+}
+// End Search Box

@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./static/load.css">
     <link rel="stylesheet" href="./static/index.css">
     <script src="./static/script.js" async></script>
+    <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- 加载动画外部容器 -->
@@ -100,10 +101,14 @@
                         </ul>
                 </div>
             </div>
-            <form class="d-flex" style="height: 30px;">
-                <input class="form-control me-2" type="search" placeholder="搜索" aria-label="Search">
-                <button class="btn btn-outline-dark" type="submit" style="width: 100px; padding-bottom: 30px;">搜索</button>
-            </form>
+            <div class="navbar-icon" style="width: 100px;">
+                <i class="fas fa-search" style="cursor: pointer; margin-right: 10px;" onclick=toggleSearchBox()></i>
+                <i class="fas fas fa-user" style="cursor: pointer; margin-right: 10px;" onclick=toggleSearchBox()></i>
+                <i class="fas fa-shopping-bag" style="cursor: pointer; margin-right: 10px;" onclick=toggleSearchBox()></i>
+                <div class="searchBox-active" id="searchBox" style="display: none;">
+                    <input type="text" placeholder="搜索" />
+                </div>
+            </div>
         </nav>
     </section>
     <main class="Main">

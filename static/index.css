@@ -6,7 +6,7 @@
       font-size: 13px!important;
     }
     .line-in{
-      font-size: 13px!important; 
+      font-size: 13px!important;
     }
     .btn{
       font-size: 13px!important;
@@ -30,7 +30,7 @@
       font-size: 11px!important;
     }
     .line-in{
-      font-size: 11px!important; 
+      font-size: 11px!important;
     }
     .btn{
       font-size: 11px!important;
@@ -39,3 +39,27 @@
       font-size: 2rem!important;
     }
   }
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 20px; /* 可以根据需要调整左右的外边距 */
+}
+
+.searchBox input[type="search"] {
+    border: 2px solid #ccc; /* 边框颜色 */
+    border-radius: 20px; /* 圆角 */
+    padding: 10px 20px; /* 内边距 */
+    width: 250px; /* 宽度 */
+    transition: border-color 0.3s; /* 添加边框变化的过渡效果 */
+}
+
+.searchBox input[type="search"]:focus {
+    border-color: #007bff; /* 聚焦时边框颜色变化 */
+    outline: none; /* 去掉默认的轮廓样式 */
+}
+
+.searchBox-active {
+  display: block;
+}
