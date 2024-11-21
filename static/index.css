@@ -40,26 +40,35 @@
     }
   }
 
+
 .searchBox {
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin: 0 20px; /* 可以根据需要调整左右的外边距 */
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 80%;
+  height: 0;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px;
 }
 
-.searchBox input[type="search"] {
-    border: 2px solid #ccc; /* 边框颜色 */
-    border-radius: 20px; /* 圆角 */
-    padding: 10px 20px; /* 内边距 */
-    width: 250px; /* 宽度 */
-    transition: border-color 0.3s; /* 添加边框变化的过渡效果 */
+.searchBox input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #d2d7db;
 }
 
-.searchBox input[type="search"]:focus {
-    border-color: #007bff; /* 聚焦时边框颜色变化 */
-    outline: none; /* 去掉默认的轮廓样式 */
+.searchBox input:focus {
+  border: 2px solid #77797c;
+  caret-color: auto;
 }
 
-.searchBox-active {
-  display: block;
+
+.searchBox.active {
+  height: 700px;
+  top: 0;
 }

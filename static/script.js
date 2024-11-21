@@ -58,4 +58,10 @@ function search() {
   alert('搜索: ' + query);
   // 这里可以添加搜索功能代码，例如跳转到搜索结果页面
 }
+// search auto focus
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".search-bar").focus();
+});
+
 // End Search Box
+
