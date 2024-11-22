@@ -63,7 +63,9 @@
 }
 
 .searchBox input:focus {
-  border: 2px solid #77797c;
+  border: none; /* 取消所有边框 */
+  outline: none; /* 确保没有轮廓 */
+  border-bottom: 2px solid #d2d7db; /* 仅显示底部边框 */
   caret-color: auto;
 }
 
